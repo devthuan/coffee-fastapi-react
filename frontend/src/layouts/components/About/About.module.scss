@@ -1,0 +1,76 @@
+.wrapper {
+    width: var(--default-layout-width);
+    height: 800px;
+
+}
+.inner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass_image {
+    position: absolute;
+    transform: rotate(-1.523deg);
+    z-index: 2;
+
+}
+.title {
+    position: absolute;
+    color: var(--color-black);
+    font-size: 118px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 89.023%;
+    letter-spacing: -2.95px;
+    z-index: 1;
+
+   
+
+}
+
+.title__clone {
+    position: absolute;
+    font-size: 118px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 89.023%;
+    letter-spacing: -2.95px;
+    z-index: 3;
+
+    mix-blend-mode: multiply;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--color-black);
+}
+
+
+
+.button {
+    position: absolute;
+    bottom: 59px;
+    color: var(--color-black);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 118.687%;
+    letter-spacing: -1px;
+
+    border-radius: 24px;
+    border: 3px solid #000;
+    width: 335px;
+    height: 67px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    
+}
+
+.vector {
+    margin-left: 15px;
+}

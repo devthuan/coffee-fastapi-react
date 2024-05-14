@@ -1,0 +1,131 @@
+
+
+.wrapper {
+    width: var(--default-layout-width);
+    
+}
+.inner {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.97;
+}
+
+.content__right {
+    width: 70%;
+    border: 1px solid var(--text);
+    padding: 30px;
+    border-radius: 11px;
+   
+}
+.group__input {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+.title__input {
+    width: 334.692px;
+    text-align: start;
+    margin: 0 0 10px 40px ;
+    font-size: 20px;
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.78px;
+}
+
+.content__right-title {
+    margin: 59px 0 39px 0;
+    font-size: 36px;
+ 
+}
+.input {
+    padding-left: 29px;
+    margin-bottom: 25px;
+    width: 344.692px;
+    height: 48px;
+   
+}
+
+.btn {
+    width: 251px;
+    height: 49px;
+    border-radius: 19px;
+    border: none;
+    background: var(--primary);
+    color: var(--color-black);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+.box__support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.forgot__password,
+.not__number{
+    width: 45%;
+    color: var(--text);
+    text-align: start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.63px;
+}
+.forgot__password:hover{
+    color: var(--primary);
+    transition: 0.95s all;
+    cursor: pointer;
+}
+.not__number{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+    
+
+}
+
+.resend_otp {
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.btn__register{
+ margin-left: 10px;
+ color: var(--primary);
+}
+
+.box__input {
+    position: relative;
+}
+
+.icon__eye {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.error {
+    color: red;
+    margin: -10px 0 20px -20px;
+}
+
+
+// model
+
+.container_model {
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+}

@@ -1,0 +1,152 @@
+.wrapper {
+    width: 100%;
+}
+.inner {
+    width: 100%;
+    height: auto;
+    margin-top: 50px ;  
+}
+
+.title{
+    margin-bottom: 20px;
+
+}
+.box__table{
+    margin-top: 40px;
+    width: 100%;
+}
+.table{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid var(--text);
+    border-radius: 8px;
+}
+.group__title{
+    height: 40px;
+}
+.title__text{
+    width: auto;
+    text-align: center;
+    color: var(--primary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+.group__row{
+    margin-top: 20px;
+}
+.item{
+    text-align: center;
+    padding: 10px;
+    color: var(--color-white);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.group__row:nth-child(even) {
+    background-color: var(--background-color-image-item);
+}
+.box_btn {
+    max-width: 142px;
+    width: 142px ;
+}
+
+.btn {
+    width: 95px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--color-black);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+
+}
+
+.successful {
+    color: var(--color-white);
+    background-color: var(--color-green);
+}
+.pending {
+    color: var(--color-white);
+        background-color: var(--color-origin);
+}
+.failed {
+    color: var(--color-white);
+        background-color: var(--color-red);
+}
+
+.update{
+    margin-right: 10px;
+}
+.box__infoProduct {
+    margin-left: 20px;
+       
+}
+
+.box__address {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+   
+}
+
+.image__name-product {
+    position: relative;
+    display: flex;
+    justify-content:  flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.img_product {
+    margin: 20px 0;
+}
+.quantity__product {
+    min-width: 70px;
+
+}
+
+.name__product,
+.price__product,
+.total,
+.amount {
+    height: auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    opacity: 0.83;
+
+}
+
+
+
+.price__product {
+    margin: 30px 0 0 0;
+    min-width: 40px;
+    text-align:  flex-start;
+
+}
+
+.quantity__product {
+    position: absolute;
+    right: 5px;
+    margin: 5px 0;
+
+}

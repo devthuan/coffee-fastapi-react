@@ -1,0 +1,121 @@
+.wrapper {
+    width: 100%;
+}
+.inner {
+    width: 100%;
+    height: auto;
+    margin-top: 50px ;  
+}
+
+.title{
+    margin-bottom: 20px;
+
+}
+.box__table{
+    width: 100%;
+}
+
+.table{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid var(--text);
+    border-radius: 8px;
+}
+.group__title{
+    height: 40px;
+}
+.title__text{
+    width: auto;
+    text-align: center;
+    // margin-bottom: 20px;
+    color: var(--primary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+.group__row{
+    margin-top: 20px;
+}
+.item{
+    text-align: center;
+    padding: 10px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.group__row:nth-child(even) {
+    background-color: var(--background-color-image-item);
+}
+
+
+
+.box_btn {
+    width: 100% ;
+    max-width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.btn {
+    width: 55px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--color-black);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+    
+
+}
+.create_btn {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.delete{
+
+    &:hover {
+        background-color: var(--color-red);
+        color: var(--color-white);
+        transition: 0.5s all;
+    }
+}
+.update{
+    margin-right: 10px;
+
+    &:hover {
+            background-color: var(--color-origin);
+            color: var(--color-white);
+            transition: 0.5s all;
+        }
+}
+
+
+
+.box_search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+}

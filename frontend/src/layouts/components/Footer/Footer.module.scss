@@ -1,0 +1,144 @@
+.wrapper{
+    width: var(--default-layout-width);
+    height: 100%;
+    background-color: var(--color-black);
+}
+.inner{
+    height: auto;
+    padding-left: 93px;
+    
+}
+
+.text{
+    width: 420px;
+    margin: 24px 0 46px 0;
+    color: var(--text);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 128.188%;
+    letter-spacing: 0.9px;
+}
+
+.title{
+    color: var(--primary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.188%;
+    letter-spacing: 1.08px;
+
+}
+
+
+.title__text{
+    width: 278px;
+    margin-left: 50px;
+
+}
+
+.city {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 128.188%;
+    letter-spacing: 0.81px;
+    text-transform: capitalize;
+}
+.icon-map {
+    margin-right: 10px;
+}
+.address {
+    margin-bottom: 10px;
+}
+.address,.email{
+    margin-left: 20px;
+    color: var(--text);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.188%;
+    letter-spacing: 0.81px;
+    text-transform: capitalize;
+}
+
+.item__product {
+    height: 100px;
+    padding-left: 79px;
+}
+
+.product {
+    margin: 7px 0 0 0;
+    color: var(--text);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.188%;
+    letter-spacing: 0.81px;
+    text-transform: capitalize;
+}
+
+.input {
+    margin-top: 16px;
+    width: 198.289px;
+    height: 24px;
+    padding-left: 12px;
+    color: var(--text);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 128.188%;
+    letter-spacing: -0.35px;
+    text-transform: capitalize;
+}
+
+.btn {
+    width: 55.521px;
+    height: 24px;
+    border-radius: 13px;
+    background: var(--primary);
+    border: none;
+    margin-top: 10px;
+    color: var(--color-black);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 128.188%;
+    letter-spacing: -0.35px;
+    text-transform: capitalize;
+}
+
+.group__social {
+    margin-top: 21px;
+}
+
+.social__image {
+    margin-right: 21px;
+    opacity: 0.73;
+   
+}
+
+.copyright {
+    margin-top: 71px;
+    height: 60px;
+    margin-left: -93px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.copyright__background {
+    position: absolute;
+    z-index: -1;
+
+}
+.copyright__text {
+    margin: auto;
+    position: absolute;
+    color: var(--color-black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 128.188%;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}

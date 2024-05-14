@@ -1,0 +1,174 @@
+.wrapper {
+    width: var(--default-layout-width);
+    max-width: var(--default-layout-width);
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.inner {
+    min-height: 300px;
+    margin: 70px 0;
+    height: auto;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+
+.table {
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid var(--text);
+    border-radius: 11px;
+}
+
+
+.table__content {
+    width: 100%;
+}
+
+.table__title {
+    width: 100%;
+}
+
+.table__title-item {
+    padding: 20px 0;
+    width: var(--default-layout-width);
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 128.188%;
+    letter-spacing: 1.08px;
+    text-transform: capitalize;
+}
+
+.table__items:nth-child(even) {
+    background-color: var(--background-color-image-item);
+}
+
+.table__item {
+    width: 10px;
+}
+
+.image__name-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_product {
+    margin: 20px 0;
+}
+
+
+.name__product,
+.price__product,
+.total,
+.amount {
+    height: auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    opacity: 0.83;
+
+}
+
+.name__product {
+    min-width: 120px;
+}
+
+.price__product {
+    margin: 10px 0 0 15px;
+    min-width: 40px;
+    text-align: start;
+
+}
+
+
+.box__info {
+    min-width: 250px;
+    padding-left: 10px;
+}
+
+.input__amount {
+    margin: 0 8px;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 6px;
+
+}
+
+.text__name,
+.text__numberPhone,
+.text__address {
+    color: var(--color-white);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    opacity: 0.73;
+    margin-bottom: 4px;
+}
+
+
+
+.total,
+.quantity__product {
+    min-width: 70px;
+
+}
+
+.table__btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    background: var(--primary);
+    border: none;
+    min-width: 80px;
+    height: 30px;
+}
+.box__detail{
+    display: flex;
+}
+
+.box__infoProduct {
+    margin-left: 20px;
+}
+
+
+.successful {
+    color: var(--color-white);
+    background-color: var(--color-green);
+}
+
+.pending {
+    color: var(--color-white);
+    background-color: var(--color-origin);
+}
+
+.failed {
+    color: var(--color-white);
+    background-color: var(--color-red);
+}
+
+.cancel {
+
+    &:hover {
+        color: var(--color-white);
+        background-color: var(--color-red);
+        transition: 0.5s all;
+    }
+
+}

@@ -1,0 +1,27 @@
+.wrapper{
+    width: var(--default-layout-width);
+    height: 694px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.background__img {
+    position: absolute;
+    z-index: -1;
+}
+.logo {
+    margin-top: 236px;
+
+}
+.slogan {
+    margin-top: 42px;    
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.4px;
+
+}

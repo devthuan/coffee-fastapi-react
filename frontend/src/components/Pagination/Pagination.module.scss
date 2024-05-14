@@ -1,0 +1,27 @@
+.container{
+    margin-top: 20px;
+    width: auto;
+    max-width: 1000px;
+    height: 35px;
+    
+}
+.pagination{
+    display: flex;
+    justify-content: flex-start;
+}
+.pagination__item{
+    width: 50px;
+    height: 30px;
+    border: 1px solid var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.active{
+    background-color: var(--primary);
+
+}
+.pagination__number{
+    font-size: 21px;
+}

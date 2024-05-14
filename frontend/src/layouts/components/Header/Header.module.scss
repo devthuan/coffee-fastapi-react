@@ -1,0 +1,265 @@
+.wrapper {
+    width: var(--default-layout-width);
+    max-width: var(--default-layout-width);
+    height: var(--height-banner);
+    position: relative;
+    display: flex;
+
+}
+
+.backgroundImage{
+    position: absolute;
+    z-index: -1;
+}
+    
+
+
+.header {
+    max-width: var(--default-layout-width);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: var(--height-header);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.83) 4.69%, rgba(10, 10, 9, 0.48) 100%);
+    stroke-width: 1px;
+    stroke: #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    
+}
+
+.search {
+    position: absolute;
+    left: 81px;
+    
+}
+
+.menu {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    width: auto;
+    color: var(--text);
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.56px;
+    text-transform: capitalize;
+    margin-left: 64px;
+    
+
+}
+
+.active {
+    color: var(--color-white);
+}
+
+.cart {
+    position: relative;
+}
+.amount {
+    position: absolute;
+    top: 28px;
+    right: -5px;
+    width: 20PX;
+    height: 20px;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-right: 1px;
+
+    background: var(--primary);
+    color: var(--color-white);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    text-transform: capitalize;
+}
+
+.avatar {
+    border-radius: 30px;
+
+}
+
+.popup {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        right: -50px;
+        top: 0;
+        width: 120px;
+        height: 85px;
+    
+    }
+}
+.group__prop-up{
+    position: absolute;
+    z-index: 1;
+    margin-top: 29px;
+    right: -50px;
+    width: 169px;
+    height: 245px;
+    background:  var(--background-color-image-item);
+
+    &::before {
+        position: absolute;
+        top: -15px;
+        right: 55px;
+        z-index: -1;
+        transform: rotate(45deg);
+        content: "";
+        width: 33px;
+        height: 33px;
+        background-color: var(--background-color-image-item);
+    }
+
+    
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.name{
+    margin-top: 16px;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+
+}
+.id{
+    margin-top: 3px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid var(--primary);
+    color: var(--text);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+
+}
+
+
+.item{
+    margin-top: 15px;
+    color: var(--text);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+
+    &:hover {
+        margin-left: 8px;
+    }
+
+}
+
+.active_popup {
+    color: var(--color-white);
+}
+
+
+.banner {
+    
+    position: absolute;
+    width: 70%;
+    top: 235px;
+    left: 80px;
+    
+}
+.hastag {
+    color: var(--text-brown);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+
+}
+.title {
+    color: var(--text-title);
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 101.188%;
+    letter-spacing: 3.69px;
+    text-transform: capitalize;
+    opacity: 0.79;
+
+}
+.description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.188%;
+    letter-spacing: 0.81px;
+    text-transform: capitalize;
+    opacity: 0.66;
+
+}
+
+.order-btn {
+    background-color: var(--primary);
+    border-radius: 5px;
+    margin-top: 55px;
+    width: 168.131px;
+    height: 50.517px;
+    color: var(--color-black);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 118.687%;
+
+
+}
+
+.link {
+    width: 184.625px;
+    height: 20.127px;
+    flex-shrink: 0;
+    color: var(--color-white);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.687%;
+    letter-spacing: 0.16px;
+    text-decoration-line: underline;
+    margin-left: 28px;
+    opacity: 0.79;
+}
+.login__link {
+    color: var(--color-text);
+}
+.icon__login {
+    position: relative;
+    font-size: 35px;
+    margin-left: 10px;
+    z-index: 1;
+
+    
+
+    &:hover{
+        color: var(--primary);
+        transition: 0.9s all;
+    }
+
+    
+}
+
+
+
